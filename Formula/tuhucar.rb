@@ -1,26 +1,26 @@
 class Tuhucar < Formula
   desc "CLI for Tuhu car-care knowledge workflows"
   homepage "https://github.com/tuhucar/cli"
-  version "0.0.2"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tuhucar/cli/releases/download/v0.0.2/tuhucar-darwin-arm64"
-      sha256 "0405ef60e73a12ce638efade2d822b8c0a19c52a8679e1a97c0f15d9bf30b492"
+      url "https://github.com/tuhucar/cli/releases/download/v0.0.3/tuhucar-darwin-arm64"
+      sha256 "f29c1882176028b92119946246334bbc96eeb6a09fa03c7b64e4638686cb5834"
     else
-      url "https://github.com/tuhucar/cli/releases/download/v0.0.2/tuhucar-darwin-x64"
-      sha256 "8d35dd3c1f22a3121fa4a30be0b1f4adde9e20579dbd2b9c8971e77111a112c3"
+      url "https://github.com/tuhucar/cli/releases/download/v0.0.3/tuhucar-darwin-x64"
+      sha256 "a46783df77cd77ee916ca785b0d9a0d566f1a33d4daaf9ba912886d43c5b34e0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tuhucar/cli/releases/download/v0.0.2/tuhucar-linux-arm64"
-      sha256 "951ae057202583ef09eda3e7caf53bec91ca219c2cefdcb5bd22912ba21449ba"
+      url "https://github.com/tuhucar/cli/releases/download/v0.0.3/tuhucar-linux-arm64"
+      sha256 "22356eacd259665be3c8ddbc6cdcfd81e07c44290eb9a1d33db7deaa7d25daf6"
     else
-      url "https://github.com/tuhucar/cli/releases/download/v0.0.2/tuhucar-linux-x64"
-      sha256 "05b9a18b38107af7909818435ce16500b703e874dafd5bebfb9c7c4a30b4a4d9"
+      url "https://github.com/tuhucar/cli/releases/download/v0.0.3/tuhucar-linux-x64"
+      sha256 "7779f592bc14bb5c7fa0de498296b15e0bab30e84a95061879a973d8696dd2b8"
     end
   end
 
